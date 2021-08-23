@@ -1,4 +1,5 @@
 ﻿using System;
+using BasicOOP.classes;
 
 namespace BasicOOP
 {
@@ -6,7 +7,10 @@ namespace BasicOOP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var person = new Person();
+            person.HelloWorld();
+
+            Console.ReadKey();
         }
     }
 }
