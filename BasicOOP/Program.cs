@@ -7,8 +7,11 @@ namespace BasicOOP
     {
         static void Main(string[] args)
         {
-            var person = new Person();
-            person.HelloWorld();
+            var person = new Person("Msg1" , "This is a actual value now");
+
+            var msg = person.HelloWorld();
+            Console.WriteLine(msg);
+
 
             Console.ReadKey();
         }
